@@ -69,11 +69,7 @@ class BSONArray extends ArrayObject implements JsonSerializable, Serializable, U
      * @see http://php.net/mongodb-bson-serializable.bsonserialize
      * @return array
      */
-    public function bsonSerialize()
-    {
-        return array_values($this->getArrayCopy());
-    }
-
+   
     /**
      * Unserialize the document to BSON.
      *
