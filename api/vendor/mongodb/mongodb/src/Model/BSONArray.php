@@ -32,17 +32,6 @@ use function MongoDB\recursive_copy;
  *
  * @api
  */
-class BSONArray extends ArrayObject implements JsonSerializable, Serializable, Unserializable
-{
-    /**
-     * Clone this BSONArray.
-     */
-    public function __clone()
-    {
-        foreach ($this as $key => $value) {
-            $this[$key] = recursive_copy($value);
-        }
-    }
 
     /**
      * Factory method for var_export().
@@ -76,10 +65,7 @@ class BSONArray extends ArrayObject implements JsonSerializable, Serializable, U
      * @see http://php.net/mongodb-bson-unserializable.bsonunserialize
      * @param array $data Array data
      */
-    public function bsonUnserialize(array $data)
-    {
-        self::__construct($data);
-    }
+  
 
     /**
      * Serialize the array to JSON.
