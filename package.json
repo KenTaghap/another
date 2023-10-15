@@ -1,6 +1,6 @@
 {
-  "private": true,
+  "public": true,
   "dependencies": {
-    "@vercel/edge": "^0.1.2"
+    "@vercel/chrome": "^0.1.2"
   }
 }
