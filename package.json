@@ -1,6 +1,0 @@
-{
-  "public": true,
-  "dependencies": {
-    "@vercel/chrome": "^0.1.2"
-  }
-}
