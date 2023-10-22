@@ -94,7 +94,7 @@ try {
 
 #booking {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url('img/background.jpg');
+	background-image: url('../home/reservation/img/background.jpg');
 	background-size: cover;
 	background-position: center;
 }
