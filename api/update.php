@@ -176,7 +176,7 @@ try {
 						
 						<br><br>
 						<div class="form-btn">
-						<button class="submit-btn"><a href="../index.html"> Back</a></button>
+						<button class="submit-btn"><a href="home/index.html"> Back</a></button>
 						</div>
 					</div>
 				</div>
