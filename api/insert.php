@@ -47,4 +47,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 ?>
-<div id="center_button"><button onclick="location.href='../index.html'">Back to Home</button></div>
+<div id="center_button"><button onclick="location.href='../new.html'">Back to Home</button></div>
