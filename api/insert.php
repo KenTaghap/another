@@ -39,6 +39,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'timein' => "none",
             'timeout' => "none",
 
+
+
+
+
+		
+
         ];
         $collection->insertOne($newUser);
         echo "Registration successful!";
